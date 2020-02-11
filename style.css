@@ -1,29 +1,27 @@
-h1{
-  font-size: 50px;
-  text-align:center;
-}
-body {
- background-image: url("back.jpg");
- background-size: cover;
- font-family:sans-serif;
-}
-a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-ul {
-  list-style: none; /* Remove default bullets */
+.logo {
+    background-image: url("logo.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
 }
 
-ul li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+.menu-list {
+    margin-left: 40px;
 }
-div{
-  color: white
+
+.home-page {
+    height: 100%;
 }
+
+.profile-picture {
+    background-image: url("ahmad.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.about {
+    margin-top: 3%;
+    margin-left: 5%;
+
+  }
